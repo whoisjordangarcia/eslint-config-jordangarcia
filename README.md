@@ -3,7 +3,7 @@ ESLint shareable configuration.. Feel free to use this!
 
 ## Installation
 
-`npm install --save-dev eslint-config-jordangarciai`
+`npm install --save-dev eslint-config-jordangarcia`
 
 This library has a `peerDependencies` listing for `eslint`
 
