@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-jordangarcia",
+  "version": "0.0.1",
+  "description": "ESLint rules according to jordangarcia's personal preference",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arickho/eslint-config-jordangarcia.git"
+  },
+  "keywords": [
+    "eslint",
+    "styleguide",
+    "config",
+    "jordangarcia"
+  ],
+  "author": "Jordan Garcia <arickho@gmail.com> (https://jordangarcia.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arickho/eslint-config-jordangarcia/issues"
+  },
+  "homepage": "https://github.com/arickho/eslint-config-jordangarcia#readme",
+  "dependencies": {
+    "eslint-config-cypress": "^0.28.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-jest": "^23.13.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
