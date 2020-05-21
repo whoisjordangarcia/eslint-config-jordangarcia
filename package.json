@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jordangarcia",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint rules according to jordangarcia's personal preference",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/arickho/eslint-config-jordangarcia.git"
   },
-  "keywords": ["eslint", "styleguide", "config", "jordangarcia"],
+  "keywords": [
+    "eslint",
+    "styleguide",
+    "config",
+    "jordangarcia"
+  ],
   "author": "Jordan Garcia <arickho@gmail.com> (https://jordangarcia.me)",
   "license": "MIT",
   "bugs": {
@@ -30,6 +35,13 @@
   "eslintConfig": {
     "extends": "./index.js"
   },
-  "eslintIgnore": ["node_modules", "coverage", "dist"],
-  "engines": { "node": ">=8.10", "npm": ">6" }
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ],
+  "engines": {
+    "node": ">=8.10",
+    "npm": ">6"
+  }
 }
