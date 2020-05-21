@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jordangarcia",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint rules according to jordangarcia's personal preference",
   "main": "index.js",
   "scripts": {
