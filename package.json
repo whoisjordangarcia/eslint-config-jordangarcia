@@ -1,47 +1,39 @@
 {
   "name": "eslint-config-jordangarcia",
-  "version": "0.0.3",
-  "description": "ESLint rules according to jordangarcia's personal preference",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Shareable ESLint flat config for TypeScript + React projects",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arickho/eslint-config-jordangarcia.git"
+    "url": "git+https://github.com/whoisjordangarcia/eslint-config-jordangarcia.git"
   },
   "keywords": [
     "eslint",
-    "styleguide",
-    "config",
-    "jordangarcia"
+    "eslintconfig",
+    "flat-config",
+    "typescript",
+    "react"
   ],
-  "author": "Jordan Garcia <arickho@gmail.com> (https://jordangarcia.me)",
+  "author": "Jordan Garcia",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arickho/eslint-config-jordangarcia/issues"
+    "url": "https://github.com/whoisjordangarcia/eslint-config-jordangarcia/issues"
   },
-  "homepage": "https://github.com/arickho/eslint-config-jordangarcia#readme",
-  "dependencies": {
-    "eslint-config-cypress": "^0.28.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-react": "^1.1.7",
-    "eslint-plugin-jest": "^23.13.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3"
-  },
+  "homepage": "https://github.com/whoisjordangarcia/eslint-config-jordangarcia#readme",
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": ">=9",
+    "typescript-eslint": ">=8"
   },
-  "eslintConfig": {
-    "extends": "./index.js"
-  },
-  "eslintIgnore": [
-    "node_modules",
-    "coverage",
-    "dist"
-  ],
   "engines": {
-    "node": ">=8.10",
-    "npm": ">6"
+    "node": ">=20"
   }
 }
